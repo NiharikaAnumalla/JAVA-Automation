@@ -1,0 +1,40 @@
+class Test(){
+Static String name = "niharika";
+name.length();
+
+
+}
+
+Class System(){
+Static printstream out;
+}
+ in above statement out is a print stream variable how we can access static variable outside of class we can access using classname.variablename
+ 
+ System.out now above to apply string methods then it should be string variable now to apply printstream method it should be printstream yes it is printstream now
+ 
+ System.out.println() printstrea, one method is println
+ 
+ 
+ public static void main(String args[])
+ {
+ }
+ //jvm recognize the above method easily because the jvm look for public method accessiable everywhere and static it can be accessible with out creating object void it does not retun anything
+ 
+ it access string type of args
+
+
+4) void main(String args[]) public static //invalid can n't access after close brace
+{
+}
+
+5)
+public static void main(int a[]) //valid
+{
+}
+
+static public void main(String []args) //valid
+{
+}
+
+
+ 
